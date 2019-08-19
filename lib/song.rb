@@ -12,8 +12,8 @@ class Song
     @@all 
   end
   
-  def artist=(artist) 
-    @artist = artist 
+  def artist=(obj_artist) 
+    @artist = obj_artist 
   end
   
   def artist_name
