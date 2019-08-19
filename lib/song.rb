@@ -12,6 +12,10 @@ class Song
     @@all 
   end
   
+  def artist 
+    
+  end
+  
   def artist_name
    if  @artist 
      @artist.name
